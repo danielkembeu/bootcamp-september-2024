@@ -1,0 +1,9 @@
+To send a project to GitHub, these are the steps:
+
+0. Create the project on github already.
+1. git init
+2. git branch -M (here a simple branch name)
+3. git remote add origin [link to the repository]
+4. git add .
+5. git commit -m "here the commit message"
+6. git push -u origin (the name of the main branch)
